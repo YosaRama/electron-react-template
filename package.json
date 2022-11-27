@@ -35,6 +35,21 @@
     ],
     "directories": {
       "buildResources": "assets"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "deleteAppDataOnUninstall": true,
+      "oneClick": true
     }
   },
   "eslintConfig": {
